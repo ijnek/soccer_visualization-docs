@@ -15,7 +15,7 @@ In a terminal, run:
 Subscription Topics
 *******************
 
-* `vision/ball` (`geometry_msgs/PointStamped`_)
+* `vision/ball` (`soccer_vision_msgs/msg/Ball`_)
 * `vision/goalposts` (`soccer_vision_msgs/msg/GoalpostArray`_)
 * `vision/field_lines` (`soccer_vision_msgs/msg/FieldLineArray`_)
 * `vision/flags` (`soccer_vision_msgs/msg/FlagArray`_)
@@ -36,7 +36,7 @@ Publishing Topics
   It is recommended to create your own launch file, similar to ``all.launch.py`` that launches only the nodes you need.
 
 
-.. _geometry_msgs/PointStamped: http://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/PointStamped.html
+.. _soccer_vision_msgs/msg/Ball: https://soccer-interfaces.readthedocs.io/en/latest/vision_msgs.html#ball
 .. _soccer_vision_msgs/msg/GoalpostArray: https://soccer-interfaces.readthedocs.io/en/latest/vision_msgs.html#goalpostarray
 .. _soccer_vision_msgs/msg/FieldLineArray: https://soccer-interfaces.readthedocs.io/en/latest/vision_msgs.html#fieldlinearray
 .. _soccer_vision_msgs/msg/FlagArray: https://soccer-interfaces.readthedocs.io/en/latest/vision_msgs.html#flagarray

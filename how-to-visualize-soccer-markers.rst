@@ -16,7 +16,7 @@ In a new terminal, start by simulating incoming vision data:
 
     .. code-block:: console
 
-      ros2 topic pub vision/ball geometry_msgs/msg/PointStamped '{header: {frame_id: test_frame}, point: {x: 2.0, y: 1.0, z: 0.0}}'
+      ros2 topic pub vision/ball soccer_vision_msgs/msg/Ball '{header: {frame_id: test_frame}, center: {x: 2.0, y: 1.0, z: 0.0}}'
 
   .. group-tab:: Goal Posts
 
