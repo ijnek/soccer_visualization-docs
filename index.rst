@@ -6,7 +6,7 @@
 Soccer Visualization
 ====================
 
-This package is used to visualize ROS2 topics related to the `soccer_interfaces`_ package
+This package is used to visualize ROS2 topics related to the `soccer_object_msgs`_ package
 in RViz.
 
 .. toctree::
@@ -18,4 +18,4 @@ in RViz.
    launch-all-conversion-nodes
    related-ros2-packages
 
-.. _soccer_interfaces: https://soccer-interfaces.readthedocs.io/en/latest/
+.. _soccer_object_msgs: https://soccer-object-msgs.readthedocs.io/en/latest/

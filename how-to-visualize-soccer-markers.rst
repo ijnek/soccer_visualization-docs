@@ -16,31 +16,31 @@ In a new terminal, start by simulating incoming vision data:
 
     .. code-block:: console
 
-      ros2 topic pub vision/ball soccer_vision_msgs/msg/Ball '{header: {frame_id: test_frame}, center: {x: 2.0, y: 1.0, z: 0.0}}'
+      ros2 topic pub vision/ball soccer_object_msgs/msg/Ball '{header: {frame_id: test_frame}, center: {x: 2.0, y: 1.0, z: 0.0}}'
 
   .. group-tab:: Goal Posts
 
     .. code-block:: console
 
-      ros2 topic pub vision/goalposts soccer_vision_msgs/msg/GoalpostArray "{posts: [{header: {frame_id: test_frame}, point: {x: 2.0, y: 2.0, z: 0.0}}]}"
+      ros2 topic pub vision/goalposts soccer_object_msgs/msg/GoalpostArray "{posts: [{header: {frame_id: test_frame}, point: {x: 2.0, y: 2.0, z: 0.0}}]}"
 
   .. group-tab:: Field Lines
 
     .. code-block:: console
     
-      ros2 topic pub vision/field_lines soccer_vision_msgs/msg/FieldLineArray "{lines: [{header: {frame_id: test_frame}, start: {x: 3.0, y: 2.0, z: 0.0}, end: {x: 3.0, y: 1.0, z: 0.0}}]}"
+      ros2 topic pub vision/field_lines soccer_object_msgs/msg/FieldLineArray "{lines: [{header: {frame_id: test_frame}, start: {x: 3.0, y: 2.0, z: 0.0}, end: {x: 3.0, y: 1.0, z: 0.0}}]}"
 
   .. group-tab:: Flags
 
     .. code-block:: console
 
-      ros2 topic pub vision/flags soccer_vision_msgs/msg/FlagArray "{flags: [{header: {frame_id: test_frame}, base: {x: 1.0, y: 2.0, z: 0.0}}]}"
+      ros2 topic pub vision/flags soccer_object_msgs/msg/FlagArray "{flags: [{header: {frame_id: test_frame}, base: {x: 1.0, y: 2.0, z: 0.0}}]}"
 
   .. group-tab:: Robots
 
     .. code-block:: console
 
-      ros2 topic pub vision/robots soccer_vision_msgs/msg/RobotArray "{robots: [{header: {frame_id: test_frame}, head: {x: 3.0, y: -1.0, z: 0.50}}]}"
+      ros2 topic pub vision/robots soccer_object_msgs/msg/RobotArray "{robots: [{header: {frame_id: test_frame}, head: {x: 3.0, y: -1.0, z: 0.50}}]}"
 
 .. note::
 
@@ -146,5 +146,5 @@ Add Marker to Display
     .. image:: images/robots.gif
 
 
-.. _ROS2 Soccer Interfaces: https://soccer-interfaces.readthedocs.io/en/latest/
+.. _ROS2 Soccer Interfaces: https://soccer-object-msgs.readthedocs.io/en/latest/
 .. _RViz Markers: http://wiki.ros.org/rviz/DisplayTypes/Marker
